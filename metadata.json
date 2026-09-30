@@ -1,0 +1,6 @@
+{
+  "name": "STASH",
+  "description": "Personal digital organizer that automatically understands and organizes your documents, receipts, screenshots, and warranties.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

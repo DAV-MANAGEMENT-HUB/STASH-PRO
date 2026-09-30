@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Armor Capsule Vault (Centered in 66dp safe zone: X 21-87, Y 21-87) -->
+    <path
+        android:pathData="M54,23 C40.2,23 29,34.2 29,48 L29,66 C29,78 38.6,87 50.4,87 L57.6,87 C69.4,87 79,78 79,66 L79,48 C79,34.2 67.8,23 54,23 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="315"
+                android:endColor="#1E293B"
+                android:startColor="#334155"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+
+    <!-- Metallic Vault Bezel -->
+    <path
+        android:pathData="M54,27 C42.4,27 33,36.4 33,48 L33,64 C33,74.5 41.5,83 52,83 L56,83 C66.5,83 75,74.5 75,64 L75,48 C75,36.4 65.6,27 54,27 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#64748B">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="270"
+                android:endColor="#0F172A"
+                android:startColor="#1E293B"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+
+    <!-- Top Shackle / Lock Arch Ring -->
+    <path
+        android:pathData="M43,38 C43,32 48,27 54,27 C60,27 65,32 65,38 L65,43 L43,43 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#F59E0B"
+        android:fillColor="#00000000" />
+
+    <!-- Precision Interlocking Vault Core (Hex-Shield with Amber Glow) -->
+    <path
+        android:pathData="M54,42 L68,49 L68,63 C68,71 54,77 54,77 C54,77 40,71 40,63 L40,49 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="315"
+                android:endColor="#D97706"
+                android:startColor="#FBBF24"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Digital Key Aperture / Geometric Star -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,51 C51.8,51 50,52.8 50,55 C50,56.7 51,58.1 52.5,58.7 L51.5,67 L56.5,67 L55.5,58.7 C57,58.1 58,56.7 58,55 C58,52.8 56.2,51 54,51 Z" />
+</vector>
